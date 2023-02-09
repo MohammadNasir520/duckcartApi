@@ -27,7 +27,17 @@ exports.signUp = async (req, res) => {
     result = result.toObject();
     delete result.password;
 
-    res.send({ result, message: "signup successful" })
+    const token = jwt.sign(
+        {
+            username: result.username,
+        },
+        process.env.ACCESS_TOKEN_SECRET,
+        {
+            expiresIn: "1h"
+        }
+    )
+
+    res.send({ result, token, message: "signup successful" })
 
 
 }
