@@ -1,4 +1,5 @@
 # duckcartApi
+# Thank You, Sir, for Giving me the opportunity to do such an amazing task. I am really greatfull to you!
 ### Live: https://duckcart-api-mohammadnasir520.vercel.app/
 
 
