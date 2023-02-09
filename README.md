@@ -5,7 +5,7 @@
 
 ## API and convention
 #### siginup api: https://duckcart-api-mohammadnasir520.vercel.app/signup
-method: POST
+method: POST <br>
 {
    "username":"nasir9",
     "password":"aaaaaa",
@@ -16,7 +16,7 @@ method: POST
 
 
 #### login api : https://duckcart-api-mohammadnasir520.vercel.app/login
-method:POST
+method:POST <br>
 {
    "username":"nasir2",
     "password":"aaaaaa"
@@ -26,11 +26,11 @@ method:POST
 
 
 #### paginated api: https://duckcart-api-mohammadnasir520.vercel.app/creators?page=2&limit=3
-method:GET
+method:GET <br>
 
 
 #### store donaton: https://duckcart-api-mohammadnasir520.vercel.app/donation
-method:POST
+method:POST <br>
  {
      
         "name": "CarryMinati",
@@ -43,7 +43,7 @@ method:POST
     
     
 #### get paritcular donation: https://duckcart-api-mohammadnasir520.vercel.app/donation
-method:GET
+method:GET<br>
 {
     "Fromcreator":"CarryMinati",
     "Tocreator":"BB Ki Vines"
