@@ -1,6 +1,8 @@
 # duckcartApi
 ### Live: https://duckcart-api-mohammadnasir520.vercel.app/
 
+
+## API and convention
 #### siginup api: https://duckcart-api-mohammadnasir520.vercel.app/signup
 {
    "username":"nasir9",
